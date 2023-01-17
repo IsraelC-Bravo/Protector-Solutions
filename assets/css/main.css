@@ -1266,9 +1266,6 @@ ol {
     padding-left: 0.25em; }
 
 ul {
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
   list-style: disc;
   margin: 0 0 2em 0;
   padding-left: 1em; }
@@ -1283,6 +1280,12 @@ ul {
       ul.alt li:first-child {
         border-top: 0;
         padding-top: 0; }
+
+ul.stuff {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
 
 dl {
   margin: 0 0 2em 0; }
@@ -2104,6 +2107,7 @@ button,
     border-bottom: 0;
     color: inherit;
     text-align: center;
+    
     font-family: "Roboto Slab", serif;
     font-size: 2.0em; }
   #header .icons {
@@ -2117,15 +2121,8 @@ button,
       padding-top: 1em; }
       #header .logo img {
         padding-left: 1.5em;
-
+        text-align: center;
       }}
-      #header .icons {
-        
-        height: 5em;
-        line-height: 5em;
-        position: absolute;
-        right: -11.5em;
-        top: 0; } 
   @media screen and (max-width: 736px) {
     #header {
       padding-top: 4em; }
@@ -2134,11 +2131,10 @@ button,
         text-align: center;
         margin: 0; }
       #header .icons {
-        
         height: 5em;
         line-height: 5em;
         position: absolute;
-        right: -11.5em;
+        right: -0.2em;
         top: 0; } 
       #header .logo img {
         padding-right: 1.5em;
@@ -2160,7 +2156,7 @@ button,
         height: 3em;
         line-height: 5em;
         position: absolute;
-        right: -11.5em;
+        right: -0.2em;
         top: 0; } }
   @media screen and (max-width: 360px) {
     #header {
@@ -2178,7 +2174,7 @@ button,
         height: 3em;
         line-height: 5em;
         position: absolute;
-        right: -11.5em;
+        right: -0.2em;
         top: 0; } }
 
 
