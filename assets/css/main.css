@@ -1266,6 +1266,9 @@ ol {
     padding-left: 0.25em; }
 
 ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
   list-style: disc;
   margin: 0 0 2em 0;
   padding-left: 1em; }
@@ -2116,6 +2119,13 @@ button,
         padding-left: 1.5em;
 
       }}
+      #header .icons {
+        
+        height: 5em;
+        line-height: 5em;
+        position: absolute;
+        right: -11.5em;
+        top: 0; } 
   @media screen and (max-width: 736px) {
     #header {
       padding-top: 4em; }
@@ -2124,10 +2134,11 @@ button,
         text-align: center;
         margin: 0; }
       #header .icons {
+        
         height: 5em;
         line-height: 5em;
         position: absolute;
-        right: -0.5em;
+        right: -11.5em;
         top: 0; } 
       #header .logo img {
         padding-right: 1.5em;
@@ -2145,10 +2156,11 @@ button,
         padding-right: 2.5em;
       }
       #header .icons {
+        
         height: 3em;
         line-height: 5em;
         position: absolute;
-        right: -0.5em;
+        right: -11.5em;
         top: 0; } }
   @media screen and (max-width: 360px) {
     #header {
@@ -2162,10 +2174,11 @@ button,
         padding-right: 3em;
       }
       #header .icons {
+        
         height: 3em;
         line-height: 5em;
         position: absolute;
-        right: -0.5em;
+        right: -11.5em;
         top: 0; } }
 
 
