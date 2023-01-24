@@ -2063,7 +2063,7 @@ button,
             height: 3.5em;
             left: 1em;
             position: absolute;
-            top: 1em;
+            top: 1.5em;
             width: 5em; }
         
       body.is-preload #sidebar {
@@ -2085,7 +2085,7 @@ button,
         height: 3.5em;
         left: 1em;
         position: absolute;
-        top: 1em;
+        top: 1.5em;
         width: 5em; } }
 
 /* Header */
