@@ -2004,7 +2004,7 @@ button,
       width: inherit; }
   #sidebar.inactive {
     margin-left: -26em; }
-  /*@media screen and (max-width: 1680px) {
+  @media screen and (max-width: 1920px) {
     #sidebar {
       width: 24em; }
       #sidebar > .inner {
@@ -2021,10 +2021,24 @@ button,
         text-indent: 5em;
         width: 5em; }
         #sidebar .toggle:before {
-          font-size: 1.5rem; }
+          color: #7f888f;
+          margin-left: -0.0625em;
+          margin-top: -0.25em;
+          font-size: 1.1rem;
+          z-index: 1; }
+        #sidebar .toggle:after {
+          background: rgba(222, 225, 226, 0.75);
+          border-radius: 0.375em;
+          content: '';
+          height: 3.5em;
+          left: 0.1em;
+          position: absolute;
+          top: 1.1em;
+          width: 5em; }
+
       #sidebar.inactive {
-        margin-left: -24em; } }*/
-  @media screen and (max-width: 1680px) {
+        margin-left: -24em; } }
+  @media screen and (max-width: 1280px) {
     #sidebar {
       box-shadow: 0 0 5em 0 rgba(0, 0, 0, 0.175);
       height: 100%;
@@ -2063,7 +2077,7 @@ button,
             height: 3.5em;
             left: 1em;
             position: absolute;
-            top: 1.5em;
+            top: 1.1em;
             width: 5em; }
         
       body.is-preload #sidebar {
@@ -2085,7 +2099,7 @@ button,
         height: 3.5em;
         left: 1em;
         position: absolute;
-        top: 1.5em;
+        top: 1.1em;
         width: 5em; } }
 
 /* Header */
@@ -2213,10 +2227,10 @@ button,
     width: 50%; }
     #banner .image img {
       height: 100%;
-      -moz-object-fit: cover;
-      -webkit-object-fit: cover;
-      -ms-object-fit: cover;
-      object-fit: cover;
+      -moz-object-fit: contain;
+      -webkit-object-fit: contain;
+      -ms-object-fit: contain;
+      object-fit:contain ;
       -moz-object-position: center;
       -webkit-object-position: center;
       -ms-object-position: center;
