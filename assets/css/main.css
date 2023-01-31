@@ -2195,7 +2195,7 @@ button,
 
 
 /* Banner */
-#products {
+#products, .nosotros {
   font-family: "Roboto Slab", serif;
   font-size: 1em;
   font-weight: 400;
