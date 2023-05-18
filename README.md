@@ -3,7 +3,7 @@
 A fully responsive, original, and modern website for a security and surveillance company
 **Link:** https://solucionesprotector.netlify.app
 
-![alt tag]([https://i.imgur.com/io3KxRv.gif](https://i.imgur.com/TIkJGLC.gif))
+![alt tag](https://i.imgur.com/TIkJGLC.gif)
 
 ## How It's Made:
 
